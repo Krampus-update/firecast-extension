@@ -71,8 +71,9 @@
 	"event": {
 		"prefix": "event",
 		"body": [
-			"<event name='$1'>\n",
-			"</event>"
+			"<event name='$1'><![DATA[\n",
+			"$2",
+			"]]></event>"
 		],
 		"description": "Esta tag especial serve para tratar um evento de uma tag/controle usando a linguagem de programação LUA (veja A linguagem de programação LUA).\n\tObservações:\nO corpo da tag contém código de programação LUA.\nEsta tag não cria nenhum controle.\nVocê deve colocar a tag event dentro da tag que deseja tratar o evento.\nImportante: Não deixe de ler as Orientações ao usar código LUA em um Lua Form."
 	},
@@ -225,9 +226,9 @@
 	"script": {
 		"prefix": "script",
 		"body": [
-			"<script>\n",
+			"<script><![DATA[\n",
 			"\t$1",
-			"</script>"
+			"]]></script>"
 		],
 		"description": "Esta tag especial serve para definir um bloco de códigos LUA (veja A linguagem de programação LUA) que será executado quando uma nova instância do Lua Form for criada.\nObservações:\n\t• O corpo da tag contém código de programação LUA.\n\t• Esta tag não cria nenhum controle.\n\t• A ordem que a tag script foi definida no documento Lua Form importa! O código será executado logo após a criação da tag/controle que está acima, porém antes da criação da tag/controle que está abaixo. No momento exato em que o script é executado, a variável 'sheet' conterá valor nil e será preenchido num momento posterior.\nImportante: Não deixe de ler as Orientações ao usar código LUA em um Lua Form."
 	},
