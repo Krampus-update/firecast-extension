@@ -2,24 +2,31 @@
   "scopeName": "source.xml",
   "patterns": [
     {
-      "include": "#xml"
+      "begin": "<!\\[CDATA\\[",
+      "end": "\\]\\]>",
+      "contentName": "source.lua",
+      "patterns": [
+        {
+          "include": "source.lua"
+        }
+      ]
+    },
+    {
+      "include": "text.xml"
     }
   ],
   "repository": {
     "xml": {
       "patterns": [
         {
-          "begin": "<!\\[CDATA\\[",
-          "end": "\\]\\]>",
-          "contentName": "source.lua",
-          "patterns": [
-            {
-              "include": "source.lua"
-            }
-          ]
-        },
-        {
           "include": "text.xml"
+        }
+      ]
+    },
+    "lua": {
+      "patterns": [
+        {
+          "include": "source.lua"
         }
       ]
     }
