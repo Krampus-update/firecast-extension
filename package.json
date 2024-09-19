@@ -4,7 +4,7 @@
   "description": "Esta extensão visa facilitar e agilizar o desenvolvimento de fichas para o Firecast utilizando o SDK 3, de maneira prática você possuirá snippets que auxiliarão você a escrever todas as tags do SDK 3.",
   "icon": "img/firecast.png",
   "version": "0.0.3",
-  "repository": "https://github.com/Krampus-update/Firecast-Snippets",
+  "repository": "https://github.com/Krampus-update/Firecast-Extension",
   "scripts": {
     "deploy": "vsce publish",
     "test": "vscode-test"
