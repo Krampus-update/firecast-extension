@@ -1,0 +1,19 @@
+{
+    "scopeName": "text.xml.lua",
+    "patterns": [
+      {
+        "begin": "<!\\[CDATA\\[",
+        "end": "\\]\\]>",
+        "contentName": "source.lua",
+        "patterns": [
+          {
+            "include": "source.lua"
+          }
+        ]
+      }
+    ],
+    "repository": {},
+    "name": "Lua in CDATA",
+    "fileTypes": []
+  }
+  

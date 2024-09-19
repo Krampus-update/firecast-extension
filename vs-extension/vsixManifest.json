@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/vsix-publish",
+    "categories": [ "coding" ], 
+    "identity": {
+        "internalName": "FirecastExtension" 
+    },
+    "overview": "README.md",            
+    "priceCategory": "free",
+    "publisher": "Pedro Luca",
+    "private": false,                     
+    "qna": true,
+    "repo": "https://github.com/Krampus-update/Firecast-Snippets"
+    
+}
