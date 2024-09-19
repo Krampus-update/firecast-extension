@@ -7,7 +7,7 @@
 			"\n$4",
 			"</form>"
 		],
-		"description": "Cada modelo de ficha do SDK3 é um documento Lua Form (extensão ‘.lfm’) e toda vez que o usuário abre um personagem, o RRPG Firecast localiza o Lua Form adequado, cria uma nova instância e a exibe na tela."
+		"description": "Cada modelo de ficha do SDK3 é um documento Lua Form (extensão '.lfm') e toda vez que o usuário abre um personagem, o RRPG Firecast localiza o Lua Form adequado, cria uma nova instância e a exibe na tela."
 	},
 	"button": {
 		"prefix": "button",
@@ -47,7 +47,7 @@
 	"dataLink": {
 		"prefix": "dataLink",
 		"body": [
-			"<dataLink field='$1'>\m",
+			"<dataLink field='$1'>\n",
 			"$2",
 			"</dataLink>"
 		],
@@ -106,7 +106,7 @@
 			"<group>\n\t$1",
 			"</group>"
 		],
-		"description":	"Com a  tag group, o programador pode agrupar outras tags. Esta tag não faz nada além disso, não afeta a interface visual e nem a interpretação do Lua Form.\nNão há propriedades e nem atributos.\nÉ especialmente útil para usar com a tag import. Honestamente, sua única utilidade é essa hehehe =)."
+		"description": "Com a  tag group, o programador pode agrupar outras tags. Esta tag não faz nada além disso, não afeta a interface visual e nem a interpretação do Lua Form.\nNão há propriedades e nem atributos.\nÉ especialmente útil para usar com a tag import. Honestamente, sua única utilidade é essa hehehe =)."
 	},
 	"horzLine": {
 		"prefix": "horzLine",
@@ -209,8 +209,8 @@
 	"rectangle": {
 		"prefix": "rectangle",
 		"body": [
-			"<rectangle align='$1'>\n"
-			"$2\n"
+			"<rectangle align='$1'>\n",
+			"$2\n",
 			"</rectangle>"
 		],
 		"description": "A tag/componente rectangle representa um retângulo na interface o qual você pode personalizar cores, bordas e outros aspectos da forma."
@@ -225,7 +225,8 @@
 	"script": {
 		"prefix": "script",
 		"body": [
-			"<script>\n\t$1",
+			"<script>\n",
+			"\t$1",
 			"</script>"
 		],
 		"description": "Esta tag especial serve para definir um bloco de códigos LUA (veja A linguagem de programação LUA) que será executado quando uma nova instância do Lua Form for criada.\nObservações:\n\t• O corpo da tag contém código de programação LUA.\n\t• Esta tag não cria nenhum controle.\n\t• A ordem que a tag script foi definida no documento Lua Form importa! O código será executado logo após a criação da tag/controle que está acima, porém antes da criação da tag/controle que está abaixo. No momento exato em que o script é executado, a variável 'sheet' conterá valor nil e será preenchido num momento posterior.\nImportante: Não deixe de ler as Orientações ao usar código LUA em um Lua Form."
@@ -241,7 +242,8 @@
 	"style": {
 		"prefix": "style",
 		"body": [
-			"<style>\n\t$1",
+			"<style>\n",
+			"\t$1",
 			"</style>"
 		],
 		"description": "Esta tag especial serve para definir um estilo em cascata, muito semelhante ao CSS no HTML. Um estilo em cascata é um bloco de códigos especiais que aplica valores à propriedades de 1 ou mais controles de uma vez só, em cascata.\nÉ especialmente útil para evitar retrabalho e para separar o formato do conteúdo principal do Lua Form.\nImportante: A sintaxe do estilo em cascata é muito semelhante ao do CSS, porém as propriedades disponíveis são diferentes."
@@ -284,5 +286,4 @@
 		],
 		"description": "A tag timer representa um componente não visual (não é exibido na interface) que executa determinado código LUA de tempo em tempo."
 	}
-	
 }

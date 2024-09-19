@@ -1,81 +1,65 @@
-<!--
-*** Obrigado por estar vendo o nosso README. Se você tiver alguma sugestão
-*** que possa melhorá-lo ainda mais dê um fork no repositório e crie uma Pull
-*** Request ou abra uma Issue com a tag "sugestão".
--->
+# firecast-support README
 
-<!-- ABOUT THE PROJECT -->
-## Sobre
+This is the README for your extension "firecast-support". After writing up a brief description, we recommend including the following sections.
 
-Esta extensão visa facilitar e agilizar o desenvolvimento de fichas para o RRPG Firecast utilizando o SDK 3, de maneira prática você possuirá snippets que auxiliarão você a escrever todas as tags do SDK 3.
+## Features
 
-## Utilização
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-- Esteja com seu arquivo .lfm aberto no Visual Studio Code, no canto inferior direito possúi um sino e um smile sorrindo e ao lado esquerdo do smile mostra o idioma (Linguagem) que o Visual Studio Code está interpretando, clique nele e associe o arquivo .lfm para XML.
+For example if there is an image subfolder under your extension project workspace:
 
-- Agora utilize os snippets nos arquivos .lfm bastando apenas digitar o nome de qualquer tag Lua Form do SDK 3, como por exemplo: button.
+\!\[feature X\]\(images/feature-x.png\)
 
-![Preview](https://i.imgur.com/vlkGZUO.png)
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-- Use a tecla do teclado TAB para navegar entre os parâmetros das tags.
+## Requirements
 
-- Aproveite!
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-## Lista completa dos Snipets
+## Extension Settings
 
-- Novo Modelo de Ficha
-- button
-- activityIndicator
-- comboBox
-- colorComboBox
-- checkBox
-- dataLink
-- dataScopeBox
-- edit
-- event
-- flowLayout
-- flowLineBreak
-- flowPart
-- group
-- horzLine
-- form
-- image
-- imageCheckBox
-- import
-- label
-- layout
-- path
-- popup
-- popupForm
-- progressBar
-- radioButton
-- recordList
-- rectangle
-- richEdit
-- script
-- scrollBox
-- style
-- tab
-- tabControl
-- template
-- textEditor
-- timer
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-<!-- CONTRIBUTING -->
+For example:
 
-## Contribuição
+This extension contributes the following settings:
 
-Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
-1. Faça um Fork do projeto
-2. Crie uma Branch para você (`git checkout -b user/Seu Nome`)
-3. Adicione suas mudanças (`git add .`)
-4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
-5. Faça o Push da Branch (`git push origin user/Seu Nome`)
-6. Abra uma Pull Request
+## Known Issues
 
-## Repositório
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
-  <a href="https://github.com/Krampus-update/Firecast-Snippets">
-    <img src="https://i.imgur.com/VNsuZCv.png" alt="Github" style="width: 128px; height: auto;">
-  </a>
+## Release Notes
+
+Users appreciate release notes as you update your extension.
+
+### 1.0.0
+
+Initial release of ...
+
+### 1.0.1
+
+Fixed issue #.
+
+### 1.1.0
+
+Added features X, Y, and Z.
+
+---
+
+## Working with Markdown
+
+You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
