@@ -28,23 +28,11 @@
         "embeddedLanguages": {
           "source.lua": "lua"
         }
-      },
-      {
-        "language": "lfm",
-        "scopeName": "text.xml.lua",
-        "path": "./syntaxes/lua-cdata.tmLanguage.json",
-        "embeddedLanguages": {
-          "source.lua": "lua"
-        }
       }
     ],
     "snippets": [
       {
         "language": "xml",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "lfm",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
