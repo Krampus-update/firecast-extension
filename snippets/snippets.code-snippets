@@ -226,7 +226,7 @@
 	"script": {
 		"prefix": "script",
 		"body": [
-			"<script><![DATA[\n",
+			"<script><![CDATA[\n",
 			"\t$1",
 			"]]></script>"
 		],
