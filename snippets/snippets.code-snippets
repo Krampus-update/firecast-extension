@@ -71,7 +71,7 @@
 	"event": {
 		"prefix": "event",
 		"body": [
-			"<event name='$1'><![DATA[\n",
+			"<event name='$1'><![CDATA[\n",
 			"$2",
 			"]]></event>"
 		],
