@@ -7,7 +7,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre
 
-Esta extensão visa facilitar e agilizar o desenvolvimento de fichas para o RRPG Firecast utilizando o SDK 3, de maneira prática você possuirá snippets que auxiliarão você a escrever todas as tags do SDK 3.
+Esta extensão visa facilitar e agilizar o desenvolvimento de fichas para o Firecast utilizando o SDK 3, de maneira prática você possuirá snippets que auxiliarão você a escrever todas as tags do SDK 3.
 
 ## Utilização
 
@@ -76,6 +76,6 @@ Contribuições são o que fazem a comunidade open source um lugar incrível par
 
 ## Repositório
 
-  <a href="https://github.com/Krampus-update/Firecast-Snippets">
+  <a href="https://github.com/Krampus-update/Firecast-Extension">
     <img src="https://i.imgur.com/VNsuZCv.png" alt="Github" style="width: 128px; height: auto;">
   </a>
