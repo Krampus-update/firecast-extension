@@ -7,7 +7,7 @@
         "internalName": "FirecastExtension",
         "displayName": "Firecast Extension",
         "icon": "img\firecast.png",
-        "version": "1.0.2"
+        "version": "1.0.3"
     },
     "overview": "README.md",
     "priceCategory": "free",
