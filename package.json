@@ -25,7 +25,7 @@
       {
         "language": "xml",
         "scopeName": "source.xml",
-        "path": "./syntaxes/xml-lua.tmLanguage.json",
+        "path": "./syntaxes/lua-cdata.tmLanguage.json",
         "embeddedLanguages": {
           "source.lua": "lua",
           "text.xml": "xml"
